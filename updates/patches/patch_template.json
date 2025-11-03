@@ -1,0 +1,16 @@
+{
+  "id": "patch-example-YYYYMMDD",
+  "version": "0.9.5-alpha",
+  "description": "Short human-friendly description of what this patch does.",
+  "author": "Your Name <you@example.com>",
+  "date": "2025-11-01",
+  "url": "https://example.com/patches/patch-example-YYYYMMDD.zip",
+  "sha256": "REPLACE_WITH_SHA256",
+  "size_bytes": 0,
+  "target_path": "../",
+  "apply_mode": "zip-merge",
+  "pre_hook": "scripts/pre_install.sh",
+  "post_hook": "scripts/post_install.sh",
+  "signature": null,
+  "rollback_instructions": "If install fails, run updates/update_manager.py --rollback <backup-id>"
+}

@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="interface/assets/images/DEX-banner-LD-1.png" alt="cpp-tbox logo"/>
+</p>
+
 # 🧠 DEX – Digitally Excellent Xhell (AI Dataset Collection)
 
 Welcome to the **DEX Universal AI Dataset**, the official data foundation for the **DEX Shell Project** — an AI-driven, multi-modal command shell that understands **sign language**, **gestures**, **voice**, and **contextual intent**.
 
 This dataset series enables the development and research of **multi-sensory human-computer interaction**, featuring components for machine learning, gesture recognition, and contextual reasoning.
-
+(DEX-OFF-SOFTWARE-DEVELOPMENT\DEX-Shell\assets\images\DEX-banner.png)
 ---
 
 ## 📂 Dataset Overview

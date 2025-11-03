@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "project": "DEX Shell",
+  "current_release": "0.9.4-alpha",
+  "releases": [
+    {
+      "version": "0.9.5-alpha",
+      "date": "2025-11-01",
+      "notes": "Minor UI fixes and stability improvements for the interface layer.",
+      "patches": [
+        {
+          "id": "patch-ui-20251101",
+          "description": "Update QML layouts and shader minor fixes.",
+          "url": "https://example.com/patches/patch-ui-20251101.zip",
+          "sha256": "REPLACE_WITH_ACTUAL_SHA256_HEX",
+          "size_bytes": 123456,
+          "target_path": "../",
+          "apply_mode": "zip-merge",
+          "pre_hook": null,
+          "post_hook": null,
+          "signature": null
+        }
+      ]
+    }
+  ]
+}

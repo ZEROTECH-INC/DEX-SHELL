@@ -1,0 +1,8 @@
+{
+  "name": "powershell_gestures",
+  "version": "0.1",
+  "gestures": [
+    { "id": "ps_ls", "label": "List", "description": "List directory", "mapping": "powershell:Get-ChildItem" },
+    { "id": "ps_cd", "label": "Change Directory", "description": "Point then move left", "mapping": "powershell:Set-Location" }
+  ]
+}

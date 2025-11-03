@@ -1,0 +1,15 @@
+{
+  "id": "patch-ui-TEST",
+  "version": "0.9.5-test",
+  "description": "Test patch for UI files — safe local verification patch.",
+  "author": "DEX Team",
+  "date": "2025-11-01",
+  "url": "patch-ui-TEST.zip",
+  "sha256": "REPLACE_ON_BUILD",
+  "size_bytes": 0,
+  "target_path": "../../interface/layout/",
+  "apply_mode": "zip-merge",
+  "pre_hook": null,
+  "post_hook": null,
+  "signature": null
+}

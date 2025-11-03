@@ -1,0 +1,27 @@
+{
+  "name": "dex_gestures",
+  "version": "0.1",
+  "gestures": [
+    {
+      "id": "open_assistant",
+      "label": "Open Assistant",
+      "description": "Open the AI assistant (one-hand wave)",
+      "example": "open_assistant_01.mp4",
+      "mapping": "ai.open"
+    },
+    {
+      "id": "run_last_cmd",
+      "label": "Run Last Command",
+      "description": "Tap index finger to thumb (tiny pinch)",
+      "example": "run_last_cmd_01.mp4",
+      "mapping": "shell.rerun_last"
+    },
+    {
+      "id": "cancel",
+      "label": "Cancel",
+      "description": "Palm facing camera, horizontal (stop)",
+      "example": "cancel_01.mp4",
+      "mapping": "shell.cancel"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "project": "DEX Shell",
+  "current_release": "0.9.4-alpha",
+  "releases": [
+    {
+      "version": "0.9.5-test",
+      "date": "2025-11-01",
+      "notes": "Local update test for interface layout.",
+      "patches": [
+        {
+          "id": "patch-ui-TEST",
+          "description": "Adds small note and mock layout update for local testing.",
+          "url": "examples/patch-ui-TEST.zip",
+          "sha256": "REPLACE_ON_BUILD",
+          "size_bytes": 0,
+          "target_path": "../../interface/layout/",
+          "apply_mode": "zip-merge",
+          "pre_hook": null,
+          "post_hook": null,
+          "signature": null
+        }
+      ]
+    }
+  ]
+}

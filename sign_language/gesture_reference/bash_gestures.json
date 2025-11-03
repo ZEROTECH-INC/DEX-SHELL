@@ -1,0 +1,7 @@
+{
+  "name": "bash_gestures",
+  "version": "0.1",
+  "gestures": [
+    { "id": "bash_ls", "label": "ls", "description": "List files (bash)", "mapping": "bash:ls -la" }
+  ]
+}

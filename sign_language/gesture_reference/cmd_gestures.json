@@ -1,0 +1,7 @@
+{
+  "name": "cmd_gestures",
+  "version": "0.1",
+  "gestures": [
+    { "id": "cmd_dir", "label": "dir", "description": "List files (Windows CMD)", "mapping": "cmd:dir" }
+  ]
+}
