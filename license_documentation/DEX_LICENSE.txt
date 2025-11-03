@@ -1,0 +1,206 @@
+1) Custom license — ZR_LICENSE.txt (example: ZR Personal License v1.0)
+
+ZR Personal License v1.0
+========================
+
+Copyright (c) 2025 Z (Project: <PROJECT_NAME>)
+
+Preamble
+--------
+This license grants permissions and sets conditions for use of the software produced by Z (the "Author"). It is intended for projects where the Author retains attribution and control while allowing others to use, study, and build upon the work under defined conditions.
+
+Terms
+-----
+
+1. Definitions
+   - "Software" means the source code, binaries, assets, documentation, and other materials provided by the Author.
+   - "You" or "Licensee" means any individual or entity exercising rights under this License.
+
+2. Grant of Rights
+   - The Author grants You a worldwide, non-exclusive, royalty-free, revocable license to:
+     a) Use, reproduce, run, and display the Software;
+     b) Create derivative works and distribute them, subject to clauses below.
+
+3. Conditions
+   - Attribution: Any distribution of the Software or derivative works must include:
+     * A copy of this ZR Personal License (ZR_LICENSE.txt)
+     * A visible acknowledgment: "Contains components from <PROJECT_NAME> by Z"
+   - No Trademark Use: This License does not grant permission to use the Author's name, trade names, trademarks, or service marks without explicit written permission.
+   - Preservation of Commission Key: If the Software contains a CommissionCore key or equivalent project signature, any transfer of ownership or public distribution must preserve and include the signature block (CommissionCore/secure_store/key.bin) or provide an output of `core_signature.verify()`.
+
+4. Limitations
+   - No Sublicensing beyond these terms: You may not relicense the original Software under a more restrictive license that negates the attribution requirements above.
+   - Export & Legal Compliance: You are responsible to comply with any export/import laws and sanctions.
+
+5. No Warranty
+   - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. Liability
+   - IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM THIS SOFTWARE.
+
+7. Revocation
+   - The Author reserves the right to revoke this license for specific users or distributions if the Conditions are materially breached and remediation is not achieved within 30 days of written notice.
+
+8. Governing Law
+   - This License shall be governed by the laws of the Author's jurisdiction (specify your country/state here). Any disputes will be settled under those laws.
+---
+
+How to use:
+- Replace `<PROJECT_NAME>` with your project name (e.g., "DEX Shell").
+- Save as `ZR_LICENSE.txt` in the project root.
+- Consider adding a short LICENSE header to important source files referencing `ZR_LICENSE.txt`.
+
+2) README.md (project landing — short polished template)
+
+# <PROJECT_NAME>
+
+Short one-liner: what it is.
+
+## Overview
+A short paragraph describing goals, high-level architecture, and what makes this project unique.
+
+## Quick Start
+```bash
+# clone
+git clone https://github.com/<your-username>/<repo>.git
+cd <repo>
+# install / run
+pip install -r requirements.txt
+python -m <entry_point>
+
+Structure
+
+src/ — source code
+
+ui/ — UI assets
+
+CommissionCore/ — signature & verification tools
+
+docs/ — design docs & architecture
+
+plugins/ — plugin modules
+
+License
+
+This project is licensed under the ZR Personal License v1.0 — see ZR_LICENSE.txt.
+
+Contributing
+
+See CONTRIBUTING.md.
+
+Contact
+
+Author: Z — email: <your-email>
+---
+
+# 3) `CONTRIBUTING.md` (how others contribute)
+
+```markdown
+# Contributing to <PROJECT_NAME>
+
+Thanks for wanting to contribute! This document explains the process for code, docs, and issue work.
+
+## Code of Conduct
+Follow `CODE_OF_CONDUCT.md`.
+
+## How to contribute
+1. Fork the repo.
+2. Create a topic branch: `git checkout -b feat/short-description`.
+3. Run tests and linting locally.
+4. Open a Pull Request with a clear description, test notes, and linked issues.
+
+## Style
+- Python: follow PEP8, black formatting recommended.
+- JavaScript: follow ESLint (if present).
+- Commit message style: `type(scope): short description` (e.g., `feat(cli): add 'dex status' command`).
+
+## PR checklist
+- [ ] Tests added or updated
+- [ ] Linting passes
+- [ ] Documentation updated
+
+5) SECURITY.md (vulnerability disclosure)
+
+# Security Policy
+
+Report security issues to: <your-sec-email>
+
+We will respond within 72 hours. Please do not disclose vulnerabilities publicly before they are fixed.
+
+## Supported versions
+- `main`: actively maintained
+
+6) ARCHITECTURE.md (technical overview)
+
+# Architecture Overview
+
+Describe architecture layers: core engine, UI, plugin system, CommissionCore, data pipelines, ML components, IPC, and CI.
+
+Include diagrams (PNG/SVG) in `docs/` if possible.
+
+Example sections:
+- Core (Python) — command engine, plugin manager, SLIP interpreter
+- UI — Qt/QML + OpenGL shaders
+- ML — gesture model (ONNX/TensorFlow)
+- Security — CommissionCore signature verification
+- Deployment — packaging, CI, installers
+
+7) ROADMAP.md (short product roadmap)
+
+# Roadmap
+
+Short-term (0-3 months):
+- Stabilize CLI, plugin loader
+- Add CommissionCore integration to all repos
+- Basic SLIP interpreter demo
+
+Mid-term (3-9 months):
+- Qt UI prototype
+- Gesture model training pipeline
+- Release alpha to testers
+
+Long-term (9-18 months):
+- Cross-platform installers
+- Local LLM integration
+- Commercial licensing and partner integrations
+
+8) RELEASE_PROCESS.md (how you release)
+
+
+# Release Process
+
+1. Branch `release/x.y.z`
+2. Bump version in `pyproject.toml` / `package.json`
+3. Prepare CHANGELOG entry
+4. Run full test suite and linters
+5. Create release tag and push to GitHub
+6. Build packages and upload artifacts to release page
+
+9) CHANGELOG.md (keep semantic)
+
+# Changelog
+
+All notable changes to this project will be documented here.
+
+## [Unreleased]
+- Initial scaffolding
+
+10) NOTICE (3rd-party components & attribution)
+
+NOTICE
+======
+
+This project uses third-party libraries. See below for attribution.
+
+- prompt_toolkit — MIT License
+- openai — MIT-style
+...
+
+11) LEGAL_README.md (how to use license + CommissionCore)
+
+# Legal & Project Signature
+
+- This repository uses `ZR_LICENSE.txt` as its primary license.
+- CommissionCore: the file `CommissionCore/secure_store/key.bin` holds an AES-encrypted project fingerprint.
+- To verify identity, run `python CommissionCore/core_signature.py` → choose Verify.
+- For legal enforcement or trusted notarization, consider registering your generated key and metadata with a trusted timestamping or notary service (e.g., blockchain anchor, timestamping authority).

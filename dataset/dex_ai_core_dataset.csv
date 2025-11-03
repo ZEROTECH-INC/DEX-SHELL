@@ -1,0 +1,6 @@
+command_id,command_text,intent_label,confidence_score,response_time_ms,success_flag,correction_required
+1,open terminal,system_launch,0.97,120,True,False
+2,run gesture test,gesture_module_init,0.89,250,True,False
+3,play sound analyzer,audio_plugin_start,0.92,300,True,False
+4,shutdown dex,system_exit,0.99,180,True,False
+5,help me,basic_assistance,0.95,210,True,False

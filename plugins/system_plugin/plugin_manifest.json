@@ -1,0 +1,15 @@
+{
+  "name": "DEX System Plugin",
+  "id": "dex.system",
+  "version": "0.1.0",
+  "author": "Z & G",
+  "entrypoints": {
+    "cmd": "cmd_wrapper.py",
+    "bash": "bash_bridge.sh",
+    "powershell": "powershell_adapter.ps1"
+  },
+  "supported_os": ["windows", "linux", "macos"],
+  "capabilities": ["shell", "execution", "system"],
+  "secure_mode": true,
+  "description": "Bridges host shell environments into DEX with optional sandboxing."
+}

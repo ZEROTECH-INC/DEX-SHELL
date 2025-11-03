@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    {
+      "name": "system_monitor",
+      "path": "core/system_monitor.py",
+      "description": "Real-time CPU, RAM, and network monitor for DEX Shell.",
+      "version": "1.0.0",
+      "author": "DEX Labs",
+      "enabled": true
+    },
+    {
+      "name": "ai_assistant",
+      "path": "ai/ai_assistant.py",
+      "description": "Natural language companion using DEX AI engine.",
+      "version": "1.0.0",
+      "author": "DEX Labs",
+      "enabled": true
+    },
+    {
+      "name": "quantum_console",
+      "path": "experimental/quantum_console.py",
+      "description": "Simulated quantum instruction processor for research mode.",
+      "version": "0.9.0-beta",
+      "author": "DEX Research",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+10) NOTICE (3rd-party components & attribution)
+
+
+NOTICE
+======
+
+This project uses third-party libraries. See below for attribution.
+
+- prompt_toolkit — MIT License
+- openai — MIT-style
+...

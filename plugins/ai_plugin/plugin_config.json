@@ -1,0 +1,10 @@
+{
+  "name": "DEX AI Plugin",
+  "id": "dex.ai",
+  "version": "0.1.0",
+  "author": "Z & G",
+  "entry": "ai_brain.py",
+  "language": "python",
+  "capabilities": ["nlp", "gesture_inference", "learning"],
+  "dependencies": []
+}

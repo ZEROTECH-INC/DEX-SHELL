@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2025-11-01T12:00:00Z",
+  "datasets": [
+    {
+      "name": "dex_ai_core_dataset.csv",
+      "description": "AI plugin base dataset for intent classification and prediction.",
+      "records": 5,
+      "linked_module": "ai_plugin/ai_brain.py"
+    },
+    {
+      "name": "sound_analysis_dataset.csv",
+      "description": "Audio analysis frames with frequency and intensity metadata.",
+      "records": 5,
+      "linked_module": "audio_plugin/analyzer_core.cpp"
+    },
+    {
+      "name": "gesture_mapping_dataset.csv",
+      "description": "Gesture-to-command mapping with confidence thresholds.",
+      "records": 5,
+      "linked_module": "sign_language/gesture_engine.py"
+    },
+    {
+      "name": "system_response_dataset.csv",
+      "description": "System performance log tracking command latency and AI success.",
+      "records": 5,
+      "linked_module": "core/dex_engine.py"
+    }
+  ],
+  "checksum_method": "SHA256",
+  "notes": "Prototype dataset — replace sample data with production logs before DEX Shell v1.0 release."
+}

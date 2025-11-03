@@ -1,0 +1,52 @@
+timestamp,user_id,command,context,duration_ms,result
+2025-10-16T08:14:22Z,user01,dex scan system,diagnostics,523,success
+2025-10-16T08:15:01Z,user01,dex trace network,network monitor,1320,success
+2025-10-16T08:15:47Z,user02,dex project build,compiler,4089,error
+2025-10-16T08:16:15Z,user03,dex monitor start,telemetry,2542,success
+2025-10-16T08:16:59Z,user04,dex elevate,security,689,success
+2025-10-16T08:17:25Z,user05,dex log show,system audit,748,success
+2025-10-16T08:18:13Z,user01,dex config open,settings,943,success
+2025-10-16T08:18:46Z,user02,dex monitor stop,telemetry,411,success
+2025-10-16T08:19:20Z,user03,dex expand view,interface,1105,success
+2025-10-16T08:19:56Z,user04,dex broadcast,network,2089,success
+2025-10-16T08:20:24Z,user05,dex undo,session,512,success
+2025-10-16T08:21:01Z,user01,dex redo,session,478,success
+2025-10-16T08:21:39Z,user02,dex lock session,security,639,success
+2025-10-16T08:22:05Z,user03,dex cancel,task,210,error
+2025-10-16T08:22:47Z,user04,dex confirm,task,189,success
+2025-10-16T08:23:12Z,user05,dex freeze,process control,1354,success
+2025-10-16T08:23:56Z,user01,dex stop process,task kill,1908,success
+2025-10-16T08:24:31Z,user02,dex refresh,interface,672,success
+2025-10-16T08:25:05Z,user03,dex next,session,309,success
+2025-10-16T08:25:45Z,user04,dex prev,session,327,success
+2025-10-16T08:26:10Z,user05,dex start module,automation,1143,success
+2025-10-16T08:26:44Z,user01,dex monitor start,telemetry,2021,error
+2025-10-16T08:27:20Z,user02,dex trace network,network monitor,1533,success
+2025-10-16T08:27:58Z,user03,dex elevate,security,809,success
+2025-10-16T08:28:30Z,user04,dex expand view,interface,927,success
+2025-10-16T08:29:00Z,user05,dex project build,compiler,3775,success
+2025-10-16T08:29:32Z,user01,dex log clear,system audit,659,success
+2025-10-16T08:30:06Z,user02,dex monitor stop,telemetry,371,success
+2025-10-16T08:30:35Z,user03,dex lock session,security,622,success
+2025-10-16T08:31:04Z,user04,dex config open,settings,803,success
+2025-10-16T08:31:43Z,user05,dex undo,session,539,success
+2025-10-16T08:32:12Z,user01,dex redo,session,472,success
+2025-10-16T08:32:41Z,user02,dex cancel,task,182,error
+2025-10-16T08:33:18Z,user03,dex confirm,task,201,success
+2025-10-16T08:33:47Z,user04,dex freeze,process control,1235,success
+2025-10-16T08:34:23Z,user05,dex stop process,task kill,1894,success
+2025-10-16T08:34:59Z,user01,dex refresh,interface,665,success
+2025-10-16T08:35:30Z,user02,dex next,session,298,success
+2025-10-16T08:36:04Z,user03,dex prev,session,334,success
+2025-10-16T08:36:39Z,user04,dex start module,automation,1175,success
+2025-10-16T08:37:10Z,user05,dex project build,compiler,3588,error
+2025-10-16T08:37:43Z,user01,dex trace network,network monitor,1409,success
+2025-10-16T08:38:18Z,user02,dex monitor start,telemetry,2265,success
+2025-10-16T08:38:52Z,user03,dex expand view,interface,1011,success
+2025-10-16T08:39:30Z,user04,dex elevate,security,745,success
+2025-10-16T08:39:57Z,user05,dex broadcast,network,1920,success
+2025-10-16T08:40:30Z,user01,dex redo,session,506,success
+2025-10-16T08:41:04Z,user02,dex undo,session,519,success
+2025-10-16T08:41:39Z,user03,dex log show,system audit,865,success
+2025-10-16T08:42:12Z,user04,dex log clear,system audit,638,success
+2025-10-16T08:42:46Z,user05,dex start module,automation,1118,success

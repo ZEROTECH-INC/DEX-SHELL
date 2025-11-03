@@ -1,0 +1,21 @@
+sign_id,gesture_name,dex_command,meaning,complexity_level
+1,open_palm,dex start module,Start or activate a module,1
+2,closed_fist,dex stop process,Stop or terminate an active process,2
+3,point_right,dex next,Switch to the next workspace,1
+4,hand_wave_up,dex elevate,Request elevated privileges,3
+5,two_finger_circle,dex monitor start,Begin live monitoring,4
+6,clench_fist,dex freeze,Suspend active operations,3
+7,spread_hands,dex expand view,Expand interface or zoom out,2
+8,hand_draw_C,dex config open,Open configuration screen,4
+9,finger_snap,dex lock session,Lock shell session,2
+10,thumbs_up,dex confirm,Confirm or approve command,1
+11,thumbs_down,dex cancel,Cancel operation,1
+12,rotate_wrist,dex refresh,Reload UI or process,2
+13,palm_tilt_left,dex prev,Go to previous screen,1
+14,palm_tilt_right,dex next,Go to next screen,1
+15,four_finger_swipe_up,dex log show,Display recent logs,3
+16,four_finger_swipe_down,dex log clear,Clear console logs,3
+17,index_circle,dex monitor stop,Stop telemetry feed,2
+18,spread_fingers_forward,dex broadcast,Send data broadcast,4
+19,hand_twist_left,dex undo,Undo previous command,2
+20,hand_twist_right,dex redo,Redo previous command,2

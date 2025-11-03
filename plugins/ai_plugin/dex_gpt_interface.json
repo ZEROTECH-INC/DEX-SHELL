@@ -1,0 +1,12 @@
+{
+  "description": "AI plugin interface descriptors",
+  "interfaces": {
+    "interpret_text": "ai_brain.interpret_text",
+    "interpret_gesture": "ai_brain.interpret_gesture"
+  },
+  "model": {
+    "type": "local",
+    "backend": "stub",
+    "max_context_tokens": 512
+  }
+}

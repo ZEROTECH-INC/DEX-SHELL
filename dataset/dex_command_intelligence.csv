@@ -1,0 +1,21 @@
+command_id,input_type,command_phrase,intent,confidence_score,execution_module,response_time_ms,priority_level
+1,gesture,open_palm,activate_module,0.98,core.init,112,1
+2,gesture,closed_fist,terminate_process,0.96,core.control,130,2
+3,voice,"start diagnostics",system_check,0.92,diagnostics.run,305,2
+4,voice,"enable stealth mode",toggle_mode,0.89,security.stealth,276,3
+5,text,"dex reboot",system_reboot,0.95,system.kernel,422,1
+6,text,"monitor -start",launch_monitor,0.97,telemetry.agent,191,2
+7,gesture,hand_wave_up,elevate_privileges,0.94,auth.manager,208,3
+8,voice,"deploy interface alpha",launch_ui,0.91,ui.launcher,356,2
+9,text,"dex lock",session_lock,0.99,security.lock,127,1
+10,gesture,finger_snap,session_lock,0.95,security.lock,142,1
+11,text,"update kernel",system_update,0.87,core.update,518,3
+12,gesture,rotate_wrist,refresh_ui,0.92,ui.core,163,2
+13,voice,"clear logs",clean_logs,0.93,logger.cleaner,189,1
+14,text,"dex status",system_status,0.97,diagnostics.status,155,1
+15,gesture,palm_tilt_left,previous_window,0.91,ui.navigator,102,2
+16,gesture,palm_tilt_right,next_window,0.92,ui.navigator,106,2
+17,voice,"stop monitoring",halt_monitor,0.89,telemetry.agent,241,2
+18,text,"broadcast -all",data_broadcast,0.93,network.transmitter,387,3
+19,gesture,hand_twist_left,undo_action,0.94,ui.commander,142,2
+20,gesture,hand_twist_right,redo_action,0.94,ui.commander,145,2

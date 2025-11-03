@@ -1,0 +1,11 @@
+{
+  "name": "DEX Audio Plugin",
+  "id": "dex.audio",
+  "version": "0.1.0",
+  "author": "Z & G",
+  "entry": "sound_detector.py",
+  "language": "python",
+  "capabilities": ["amplitude", "dominant_frequency"],
+  "dependencies": ["numpy", "sounddevice"],
+  "description": "Realtime microphone audio detector that emits JSON events."
+}

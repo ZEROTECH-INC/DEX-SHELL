@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2025-11-01T12:00:00Z",
+  "available_packages": {
+    "dex-ui": {
+      "version": "0.9.4",
+      "url": "https://repo.dexshell.local/ui/dex-ui.pkg",
+      "description": "UI module for DEX OS environment"
+    },
+    "dex-core": {
+      "version": "0.9.4",
+      "url": "https://repo.dexshell.local/core/dex-core.pkg",
+      "description": "Core processing engine and command layer"
+    }
+  }
+}
