@@ -1,0 +1,12 @@
+🧠 CommissionCore v1.0 — Universal Project Signature & Encryption Suite
+
+CommissionCore/
+│
+├── __init__.py
+├── core_signature.py      # Generates and verifies 256-bit keys
+├── crypto_engine.py       # AES encryption / decryption utilities
+├── project_config.json    # Stores minimal project metadata
+├── secure_store/          # Encrypted storage (auto-created)
+│   └── key.bin
+├── README.md
+

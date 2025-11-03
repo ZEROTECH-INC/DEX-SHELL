@@ -1,0 +1,21 @@
+DEX Shell License & Signature Notes
+----------------------------------
+
+This file contains instructions and the public key fingerprint used to verify
+commissioned license signatures for DEX Shell.
+
+Keep the private key secure. The DEX team uses RSA-3072 keys and signs license
+payloads with RSA-PSS (SHA-256). Consumers should verify signatures before
+accepting license files.
+
+Public key fingerprint (SHA-256 of PEM):
+REPLACE_WITH_PUBLIC_KEY_SHA256_HEX
+
+Sample verification steps:
+1. Obtain public_key.pem from a trusted source (DO NOT accept it from the same channel as the license if possible).
+2. Compute fingerprint:
+   openssl pkey -pubin -in public_key.pem -outform DER | sha256sum
+3. Verify signature:
+   python key_generator.py verify --public public_key.pem --payload license.json --sig license.sig
+
+Do not distribute private_key.pem. If it is compromised, revoke all issued licenses and publish a new public key fingerprint.

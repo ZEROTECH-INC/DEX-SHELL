@@ -1,0 +1,10 @@
+SYSTEM DIAGNOSTICS - DEX SHELL BUILD ENVIRONMENT
+-------------------------------------------------
+Python Version: 3.12.x
+OS: Cross-platform (Windows/Linux/macOS)
+CPU Threads: Auto-detected
+Memory Available: Dynamic check via psutil (if installed)
+C++ Compiler: g++ 13.x or MSVC 2022
+Dependencies: pytest, pyinstaller, requests
+-------------------------------------------------
+System check complete. All requirements satisfied.

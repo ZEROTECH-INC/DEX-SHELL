@@ -1,0 +1,15 @@
+{
+  "name": "DEX Shell Core",
+  "version": "0.1.0",
+  "port": 8765,
+  "engine_native": false,
+  "ui": {
+    "default_width": 1280,
+    "default_height": 720,
+    "theme": "dark_holo"
+  },
+  "security": {
+    "commission_enabled": true,
+    "verify_on_update": true
+  }
+}

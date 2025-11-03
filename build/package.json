@@ -1,0 +1,17 @@
+{
+  "name": "dex-shell",
+  "version": "1.0.0",
+  "description": "DEX Shell unified build and packaging configuration",
+  "scripts": {
+    "build": "python3 build/compile.py",
+    "test": "pytest build/test_suite",
+    "install": "python3 build/installer_builder.py"
+  },
+  "author": "DEX Systems",
+  "license": "MIT",
+  "dependencies": {
+    "pytest": "^8.0.0",
+    "requests": "^2.31.0",
+    "colorama": "^0.4.6"
+  }
+}
