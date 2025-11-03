@@ -1,0 +1,6 @@
+gesture_id,gesture_name,action_binding,confidence_threshold,dominant_hand,sample_count,notes
+1,open_palm,open_terminal,0.85,right,320,Default activation
+2,closed_fist,close_window,0.90,right,275,Generic cancel
+3,swipe_left,previous_tab,0.88,left,150,Tab navigation
+4,swipe_right,next_tab,0.88,right,148,Tab navigation
+5,two_fingers_up,launch_ai_assistant,0.92,right,260,Trigger AI interface

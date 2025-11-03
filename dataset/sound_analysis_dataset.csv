@@ -1,0 +1,6 @@
+frame_id,avg_frequency_hz,peak_db,intensity_level,timestamp,label
+1,440,72.3,medium,2025-11-01T12:00:01Z,ambient
+2,880,65.0,low,2025-11-01T12:00:02Z,keyboard
+3,60,80.5,high,2025-11-01T12:00:03Z,voice
+4,2000,55.1,low,2025-11-01T12:00:04Z,system_beep
+5,320,77.8,medium,2025-11-01T12:00:05Z,fan

@@ -1,0 +1,6 @@
+session_id,module_name,command_executed,response_latency_ms,cpu_usage_percent,ram_usage_mb,success_rate
+1,core_engine,init_shell,180,12.4,210,0.98
+2,ai_plugin,learn_gesture,400,25.8,480,0.92
+3,audio_plugin,analyze_stream,300,31.2,560,0.95
+4,system_plugin,execute_bash_cmd,150,18.7,350,0.99
+5,ui_manager,render_layout,120,8.5,200,0.97

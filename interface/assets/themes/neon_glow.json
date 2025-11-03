@@ -1,0 +1,9 @@
+{
+  "name": "Neon Glow",
+  "background": "#051017",
+  "panel": "#06131a",
+  "text": "#e6ffff",
+  "accent": "#00ffd0",
+  "glow": "#00e6ff",
+  "font": "RobotoMono"
+}
