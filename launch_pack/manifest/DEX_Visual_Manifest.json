@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2025-11-01T12:00:00Z",
+  "assets": {
+    "splash": {
+      "gif": "splash/DEX_Splash_Holographic.gif",
+      "background": "splash/splash_background.png",
+      "sound": "splash/splash_intro_sound.mp3"
+    },
+    "logo": {
+      "static": "logo/DEX_Logo_Static.png",
+      "animation": "logo/DEX_Logo_Animation.mp4",
+      "storyboard": "logo/DEX_Logo_Sequence_Storyboard.json"
+    },
+    "boot": {
+      "screen": "boot/terminal_boot_screen.txt",
+      "sound": "boot/boot_typing_sound.mp3",
+      "animation": "boot/boot_sequence_animation.json"
+    }
+  },
+  "theme": {
+    "palette": "manifest/DEX_Color_Palette.json"
+  },
+  "display": {
+    "resolution_target": "1920x1080",
+    "scaling_mode": "auto",
+    "fps_cap": 60
+  },
+  "notes": "All assets are placeholders for DEX Shell v0.9.4-alpha visuals."
+}

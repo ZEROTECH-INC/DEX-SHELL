@@ -1,0 +1,12 @@
+{
+  "boot_stage": [
+    { "time": 0.0, "text": "Bootloader Initialized", "color": "#00FFFF" },
+    { "time": 1.2, "text": "Loading Modules...", "color": "#00AAFF" },
+    { "time": 2.5, "text": "Activating AI Core", "color": "#00FFAA" },
+    { "time": 3.8, "text": "Mounting DEX OS Layer", "color": "#00FFFF" },
+    { "time": 5.0, "text": "System Ready", "color": "#FFFFFF" }
+  ],
+  "audio_sync": "boot_typing_sound.mp3",
+  "display_mode": "terminal_scroll",
+  "loop": false
+}

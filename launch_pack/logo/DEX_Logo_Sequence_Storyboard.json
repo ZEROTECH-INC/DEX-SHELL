@@ -1,0 +1,38 @@
+{
+  "title": "DEX Logo Intro Animation Sequence",
+  "version": "1.0",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "event": "fade_in",
+      "opacity": 0.0,
+      "duration": 1.0
+    },
+    {
+      "timestamp": 1.0,
+      "event": "glow_expand",
+      "scale": 1.2,
+      "color": "#00FFFF",
+      "duration": 1.5
+    },
+    {
+      "timestamp": 2.5,
+      "event": "neon_pulse",
+      "intensity": 0.8,
+      "duration": 1.0
+    },
+    {
+      "timestamp": 3.5,
+      "event": "text_reveal",
+      "text": "DEX SHELL v0.9.4-alpha",
+      "font": "JetBrainsMono",
+      "color": "#00FFFF"
+    },
+    {
+      "timestamp": 5.0,
+      "event": "fade_out",
+      "opacity": 0.0,
+      "duration": 1.0
+    }
+  ]
+}

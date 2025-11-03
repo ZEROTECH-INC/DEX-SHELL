@@ -1,0 +1,22 @@
+{
+  "theme_name": "DEX Neon Holographic",
+  "version": "1.0",
+  "colors": {
+    "primary": "#00FFFF",
+    "accent": "#00B3FF",
+    "background": "#0A0A0A",
+    "foreground": "#E0E0E0",
+    "terminal_green": "#00FF9C",
+    "error_red": "#FF005C",
+    "warning_yellow": "#FFD43B",
+    "success_cyan": "#33FFF0"
+  },
+  "gradients": {
+    "neon_glow": ["#00FFFF", "#00B3FF", "#0066FF"],
+    "terminal_wave": ["#00FF9C", "#00FFFF"]
+  },
+  "shader_map": {
+    "splash_shader": "interface/shaders/neon_effect.glsl",
+    "boot_shader": "interface/shaders/wave_distortion.glsl"
+  }
+}
